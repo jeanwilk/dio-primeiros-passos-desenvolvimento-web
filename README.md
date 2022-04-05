@@ -2,4 +2,4 @@
 
 ## Desafio accodion
 - Usar a biblioteca JQuery;
-- Além disso, foi implementado uma barra de navegação.
+- Além disso, foi implementado uma barra de navegação, um main e um footer.
