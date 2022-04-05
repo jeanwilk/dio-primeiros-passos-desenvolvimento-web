@@ -1,24 +1,30 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+
+/* Header */
 #header {
-    margin-top: 1rem;
     margin-bottom: 1rem;
     background: #07868f;
 }
 
+/* Navegação */
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    height: 6rem;
 }
 
 nav span {
     font-size: 1.5rem;
     color: white;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
 nav ul {
-    margin-right: 2rem;
+    margin-right: 3rem;
 }
 
 nav ul li {
@@ -32,4 +38,39 @@ nav ul li a {
     text-decoration: none;
     color: aqua;
     font-size: 1.1rem;
+}
+
+/* Main */
+#sobre {
+    align-items: center;
+}
+
+#sobre #bike {
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 4px;
+}
+
+#sobre p {
+    font-size: 1.2rem;
+    text-align: justify;
+    margin: 1rem 10% 2rem;
+}
+
+/* Section Accordion */
+.section {
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(12, 12, 12);
+    color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    height: 8rem;
+    text-align: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
